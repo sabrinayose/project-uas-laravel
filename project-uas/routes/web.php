@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Livewire\Assignments;
 use App\Http\Livewire\Catatans;
+use App\Http\Livewire\Jams;
+use App\Http\Livewire\Materials;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +29,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::get('assignment', Assignments::class)->name('assignment');
 
 Route::get('catatan', Catatans::class)->name('catatan');
+
+Route::get('jam', Jams::class)->name('jam');
+
+Route::get('material', Materials::class)->name('material');
