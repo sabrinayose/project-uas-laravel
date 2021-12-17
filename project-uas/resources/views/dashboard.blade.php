@@ -1,15 +1,14 @@
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
-
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <x-jet-welcome />
-            </div>
-        </div>
+@extends('layouts.main')
+@section('content')
+    {{-- <div>
+        <x-jet-button action="{{ route('assignment') }}">{{ __('Assignment') }}</x-jet-button>
+        <x-jet-button action="{{ route('catatan') }}">{{ __('Catatan') }}</x-jet-button>
+        <x-jet-button action="{{ route('jam') }}">{{ __('Jam') }}</x-jet-button>
     </div>
-</x-app-layout>
+    <div>
+        <x-jet-button action="{{ route('material') }}">{{ __('Material') }}</x-jet-button>
+        <x-jet-button action="{{ route('nilai') }}">{{ __('Nilai') }}</x-jet-button>
+    </div> --}}
+@endsection
+
+

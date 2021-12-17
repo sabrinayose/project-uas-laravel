@@ -6,6 +6,7 @@ use App\Http\Livewire\Assignments;
 use App\Http\Livewire\Catatans;
 use App\Http\Livewire\Jams;
 use App\Http\Livewire\Materials;
+use App\Http\Livewire\Nilais;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +34,5 @@ Route::get('catatan', Catatans::class)->name('catatan');
 Route::get('jam', Jams::class)->name('jam');
 
 Route::get('material', Materials::class)->name('material');
+
+Route::get('nilai', Nilais::class)->name('nilai');

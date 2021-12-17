@@ -27,6 +27,9 @@
                     <x-jet-nav-link href="{{ route('material') }}" :active="request()->routeIs('material')">
                         {{ __('Material') }}
                     </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('nilai') }}" :active="request()->routeIs('nilai')">
+                        {{ __('Nilai') }}
+                    </x-jet-nav-link>
                 </div>
             </div>
 
